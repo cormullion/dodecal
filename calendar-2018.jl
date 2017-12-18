@@ -65,7 +65,8 @@ function domonth(pt, radius, year, month;
         if img != ""
             @layer begin
                 im = readpng(img)
-                ngon(O, radius, 5, 2pi/5, :clip)
+                rotate(rot - pi/2)
+                ngon(O, radius, 5, pi/10, :clip)
                 scale(0.25)
                 placeimage(im, O, 0.25, centered=true)
                 clipreset()
