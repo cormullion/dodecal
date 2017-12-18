@@ -1,4 +1,4 @@
 # dodecal
 
-![image][images/image.png]
+![image](images/image.png)
 
